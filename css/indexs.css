@@ -1,0 +1,145 @@
+header nav{
+    width: 100%;
+    background: url("magical.jpg");
+    height:680px;  
+}
+header nav img{
+    float: left;
+    height: 75px;
+    width: 250px;
+    
+
+}
+header nav a{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header nav a:after{
+    content: '|';
+    color: rgb(204, 204, 204);
+}
+header nav a:before{
+content: '|';
+color: rgb(194, 194, 194);
+}
+
+header .main_left_column{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 220px;
+}
+header .main_right_column{
+    width:40%;
+    float: right;
+    margin-top: 220px;
+    margin-right: 120px;
+}
+header h2{
+    font-family: 'Pacifico', cursive;
+}
+header main
+{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background: url("magical.jpg");
+}
+section img{
+    float: left;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+section .grid_12_first_column{
+    background: none;
+    float: right;
+    width: 1070px;
+    height: 210px;
+    margin-bottom: 20px; 
+    
+    
+}
+ section h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: black;
+    margin-top: 0px;
+}
+article .grid_4{
+    padding-right: 0px;
+    margin-left: 50px;
+    margin-right: 0px;
+    padding-left: 10px;
+    width: 380px;
+}
+article img{
+    float: none;
+    width: 250px;
+    margin-left: 0px
+}
+article p{
+    background:none; width: 220px;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+article h3{
+    background:none;
+    margin-left: -25px;
+    font-family: 'Pacifico', cursive;
+}
+footer{
+    width: 100%;
+    background: url("magical.jpg"); 
+    left: 0;
+    bottom: 0;
+    
+}
+footer h2{
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+footer p{
+    text-align: right;
+    width: 100%;
+}
+footer .footer_list ul{
+    width: 100%;
+
+}
+footer .footer_list li{
+    display: inline;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+    margin-left: 150px;
+}
+footer .icons_list li{
+    display: inline;
+}
+footer .footer_list li:after
+{
+    content:'|';
+    padding: 4px;
+    color: gray;
+}
+footer .footer_list li:before
+{
+    content:'|';
+    padding: 4px;
+    color: gray;
+}
+footer .footer_list li:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+      
+  

@@ -1,0 +1,100 @@
+	html, body {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	body {
+		line-height: 1;
+		background:silver;
+		background-color: white;
+	}
+	p {
+		margin: 0 0 2em 0;
+	}
+	h1 {
+		font-size: 2em;
+		margin: 0 0 0.25em 0;
+	}
+	h3 {
+		font-size: 1.35em;
+	}
+	h1, h3 {
+		color: green;
+	}
+	body {
+		position: relative;
+		padding-top: 5em;
+	}
+	#header,banner {
+		background: yellow;
+		height: 5em;
+		left: 0;
+		line-height: 5em;
+		position: fixed;
+		text-align: right;
+		top: 0;
+		width: 100%;
+	}
+	#header .logo,banner.list1 {
+			font-family: 'italic';
+			display: inline-block;
+			height: inherit;
+			left: 0;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			color: silver;
+			font-size: 1.75em;
+			text-transform: none;
+			font-weight: normal;
+			padding: 0;
+		}
+	#header a {
+			
+			display: inline-block;
+			padding: 0 2em;
+			color: blue;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: .85em;
+		}
+	#nav {
+		display: inline-block;
+	}
+	
+	#banner {
+		background-color: silver;
+		color: blue;
+		padding: 13em 0 11em 0;
+		background-position: 15% left;
+		text-align: left;
+		position: relative;
+		height:10px;
+	}
+	#main {
+		padding: 4em 0 2em 0;
+	}
+	#three {
+		padding: 6em 0 4em 0;
+	}
+		#three .inner {
+			display: -ms-flexbox;
+			-moz-flex-direction: row;
+			-webkit-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
+			-moz-justify-content: space-between;
+			-ms-flex-pack: justify;
+		}
+	#footer {
+		background-color: skyblue;
+		color: blue;
+		padding: 4em 0 2em 0;
+		background: yellow;
+	}
