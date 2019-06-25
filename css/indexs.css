@@ -1,3 +1,4 @@
+/*----------------header part start----------------------------------*/
 header nav{
     width: 100%;
     background: url("magical.jpg");
@@ -13,9 +14,7 @@ header nav img{
 header nav a{
     display: inline;
     float: right;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin:20px 20px 0px 100px;
     font-size: 25px;
     text-decoration: none;
     color: black;
@@ -33,24 +32,22 @@ color: rgb(194, 194, 194);
 header .main_left_column{
     width: 40%;
     float: left;
-    margin-left: 50px;
-    margin-top: 110px;
+    margin: 110px 0px 0px 50px;
 }
 header .main_right_column{
     width:40%;
     float: right;
-    margin-top: 110px;
-    margin-right: 120px;
+    margin: 110px 120px 0px 0px; 
 }
 header .main_right_column li{
     display: inline;
 }
-header .main_right_column li img{
+header .main_right_column li image{
     width: 28%;
     margin-right: 80px;
     height: 150px;
 }
-header .main_left_column img{
+header .main_left_column image{
     width: 100%;
     height: 300px;
     margin-bottom: 30px;
@@ -58,17 +55,16 @@ header .main_left_column img{
 header h2{
     font-family: 'Pacifico', cursive;
 }
-header main
-{
+header main{
     position: fixed;
     height: 70px;
     width: 100%;
     background: url("magical.jpg");
 }
+/*------------ main part starting--------------------------------*/
 section img{
     float: left;
-    margin-right: 10px;
-    margin-left: 0px;
+    margin: 0px 10px 0px 0px;
 }
 section .grid_12_first_column{
     background: none;
@@ -86,9 +82,7 @@ section .grid_12_first_column{
     margin-top: 0px;
 }
 article .grid_4{
-    padding-right: 0px;
-    margin-left: 50px;
-    margin-right: 0px;
+    margin: 0px 0px 0px 50px;
     padding-left: 10px;
     width: 380px;
 }
@@ -107,6 +101,7 @@ article h3{
     margin-left: -25px;
     font-family: 'Pacifico', cursive;
 }
+/*---------------------------------footer start---------------------------------*/
 footer{
     width: 100%;
     background: url("magical.jpg"); 
